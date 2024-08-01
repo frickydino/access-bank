@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headercontainer {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.headercontainer .headerleft ul {
+    display: flex;
+    list-style: none;
+}
+
+.headercontainer .headerleft ul li {
+    padding: 0 23px;
+}
+
+.headercontainer .headerleft ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 14px;
+}
+
+.headercontainer .headerright {
+    padding: 0 25px;
+}
+
+.headercontainer1 {
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+    height: 50px;
+}
+
+.headercontainer1 .headerleft1 {
+    background-color: white;
+    /* width: 85%; */
+}
+
+.headercontainer1 .headerleft1 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 5px 3px;
+}
+
+.headercontainer1 .headerleft1 ul li {
+    padding: 0 24px;
+}
+
+.headercontainer1 .headerleft1 li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 14px;
+}
+
+.headercontainer1 .headerright1 nav {
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+.headerright1 .navright div {
+    padding: 16px
+}
+
+.headerright1 .navright .inputdiv input {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.navright .secured {
+    background-color: #ee7e01;
+    color: white;
+}
